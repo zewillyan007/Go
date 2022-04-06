@@ -8,7 +8,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter your city: ")
+	fmt.Print("Escreva usa cidade: ")
 	city, _ := reader.ReadString('\n')
-	fmt.Print("You live in" + city)
+	fmt.Print("Você vive em " + city)
 }
