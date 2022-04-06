@@ -7,7 +7,7 @@ import (
 
 func main() {
 	const PI float64 = 3.1415
-	var raio = 3.2
+	var raio = 5.5
 
 	area := PI * m.Pow(raio, 2)
 	fmt.Println("A área da circunferencia é", area)
