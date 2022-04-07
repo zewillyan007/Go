@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	m "math"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("helloo")
+	area := m.Pow(2, 3)
+	fmt.Println(area)
 }
